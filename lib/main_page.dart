@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animations_expirement/basic_parallax_animation.dart';
+import 'package:flutter_animations_expirement/advance_parallax_animation.dart';
 import 'package:flutter_animations_expirement/custom_explicit_animation.dart';
 import 'package:flutter_animations_expirement/custom_implicit_animation.dart';
 import 'package:flutter_animations_expirement/explicit_animation.dart';
@@ -91,11 +91,11 @@ class _MainPageState extends State<MainPage> {
                     },
                   ),
                   TextButton(
-                    child: const Text("Basic Parallax Animation"),
+                    child: const Text("Advance Parallax Animation"),
                     onPressed: () {
                       handleOnSelectMenu(
                         newPageIndex: 5,
-                        newTextTitle: "Basic Parallax Animation",
+                        newTextTitle: "Advance Parallax Animation",
                       );
                     },
                   ),
@@ -124,7 +124,7 @@ class _MainPageState extends State<MainPage> {
           CustomImplicitAnimation(),
           ExplicitAnimation(),
           LottieAnimation(),
-          BasicParallaxAnimation(),
+          AdvanceParallaxAnimation(),
         ],
       ),
     );
